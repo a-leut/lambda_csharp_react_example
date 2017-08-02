@@ -1,0 +1,13 @@
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\xunit.runner.utility.netstandard15.dll
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\xunit.runner.reporters.netstandard15.dll
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\BlueprintBaseName.Tests.deps.json
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\BlueprintBaseName.Tests.runtimeconfig.json
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\BlueprintBaseName.Tests.runtimeconfig.dev.json
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\BlueprintBaseName.Tests.dll
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\BlueprintBaseName.Tests.pdb
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\BlueprintBaseName.dll
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\bin\Debug\netcoreapp1.0\BlueprintBaseName.pdb
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\obj\Debug\netcoreapp1.0\BlueprintBaseName.Tests.AssemblyInfo.cs
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\obj\Debug\netcoreapp1.0\BlueprintBaseName.Tests.dll
+C:\dev\EmptyFunction\template\test\BlueprintBaseName.Tests\obj\Debug\netcoreapp1.0\BlueprintBaseName.Tests.pdb

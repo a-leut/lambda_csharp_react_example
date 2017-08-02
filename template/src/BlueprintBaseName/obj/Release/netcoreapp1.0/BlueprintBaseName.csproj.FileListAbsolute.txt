@@ -1,0 +1,6 @@
+C:\dev\EmptyFunction\template\src\BlueprintBaseName\bin\Release\netcoreapp1.0\BlueprintBaseName.deps.json
+C:\dev\EmptyFunction\template\src\BlueprintBaseName\bin\Release\netcoreapp1.0\BlueprintBaseName.dll
+C:\dev\EmptyFunction\template\src\BlueprintBaseName\bin\Release\netcoreapp1.0\BlueprintBaseName.pdb
+C:\dev\EmptyFunction\template\src\BlueprintBaseName\obj\Release\netcoreapp1.0\BlueprintBaseName.AssemblyInfo.cs
+C:\dev\EmptyFunction\template\src\BlueprintBaseName\obj\Release\netcoreapp1.0\BlueprintBaseName.dll
+C:\dev\EmptyFunction\template\src\BlueprintBaseName\obj\Release\netcoreapp1.0\BlueprintBaseName.pdb
