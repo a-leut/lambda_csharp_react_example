@@ -9,14 +9,17 @@ class App extends Component {
     this.state = {'response': 'none', 'value': ''};
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.getUppercase = this.getUppercase.bind(this);
   }
   getUppercase(input) {
-    axios.post('https://txsca3462b.execute-api.us-west-2.amazonaws.com/deployed/mydemoresource', input)
+    var quoted = '"' + input + '"';
+    axios.post('https://txsca3462b.execute-api.us-west-2.amazonaws.com/deployed/mydemoresource', quoted)
       .then(response => {
-        return response.data;
+        console.log(response);
+        this.setState({'response': response.data});
       })
       .catch(exception => {
-        return 'error';
+        console.log('Connection error')
       });
   }
   handleChange(event) {
@@ -24,8 +27,7 @@ class App extends Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    var uc = this.getUppercase(this.state.value);
-    this.setState({'response': uc});
+    this.getUppercase(this.state.value);
   }
   render() {
     return (
@@ -36,11 +38,16 @@ class App extends Component {
           <form onSubmit={this.handleSubmit}>
             <label>
               Input string
+              </label>
+              <br/>
                     <input type="text" value={this.state.value} onChange={this.handleChange} />
-            </label>
+            
             <input type="submit" value="Submit" />
           </form>
-          Response: {this.state.response}
+          <br/>
+          <div>
+            <h4>Lambda Response: {this.state.response}</h4>
+          </div>
       </div>
     );
   }
